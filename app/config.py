@@ -9,8 +9,8 @@ APP_NAME = "OS Guardian"
 APP_SUBTITLE = "Smart System Health & Threat Monitor"
 VERSION = "1.0.0"
 
-SERVER_HOST = "127.0.0.1"
-SERVER_PORT = 5050
+SERVER_HOST = os.environ.get("HOST", "127.0.0.1")
+SERVER_PORT = int(os.environ.get("PORT", 5050))
 
 # Health Thresholds
 CPU_HIGH_THRESHOLD = 80.0
