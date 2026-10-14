@@ -10,7 +10,7 @@ APP_SUBTITLE = "Smart System Health & Threat Monitor"
 VERSION = "1.0.0"
 
 SERVER_HOST = "127.0.0.1"
-SERVER_PORT = 8080
+SERVER_PORT = 5050
 
 # Health Thresholds
 CPU_HIGH_THRESHOLD = 80.0
